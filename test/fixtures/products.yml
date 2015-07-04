@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_type_name: MyString
+  product_class_name: MyString
+  product_sub_class_name: MyString
+  product_minor_class_name: MyString
+  product_country_origin_name: MyString
+  product_sku_no: 1
+  product_long_name: MyString
+  product_base_upc_no: MyString
+  product_litres_per_container: 1
+  prd_container_per_sell_unit: 1
+  product_alcohol_percent: 1.5
+  current_display_price: 1.5
+  sweetness_code: 1
+
+two:
+  product_type_name: MyString
+  product_class_name: MyString
+  product_sub_class_name: MyString
+  product_minor_class_name: MyString
+  product_country_origin_name: MyString
+  product_sku_no: 1
+  product_long_name: MyString
+  product_base_upc_no: MyString
+  product_litres_per_container: 1
+  prd_container_per_sell_unit: 1
+  product_alcohol_percent: 1.5
+  current_display_price: 1.5
+  sweetness_code: 1
