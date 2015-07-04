@@ -1,0 +1,33 @@
+<h1>Beers in BC</h1>
+<h3>IPAs in BC with above or equal to 6% alcohol content</h3>
+<p>Average IPA price: $<%= @ipa_avg_price.round(2) %><p>
+<table>
+  <tr>
+    <th>Beer</th>
+    <th>Alcohol Percentage</th>
+    <th>Price</th>
+  </tr>
+<% @ipas.each do |p| %>
+  </tr>
+    <td><%= p[:product_long_name].titlecase %></td>
+    <td><%= p[:product_alcohol_percent] %></td>
+    <td>$<%= p[:current_display_price] %></td>
+  </tr>
+<% end %>
+</table>
+
+<h3>Stouts and Porters in BC (any alcohol content)</h3>
+<table>
+  <tr>
+    <th>Beer</th>
+    <th>Alcohol Percentage</th>
+    <th>Price</th>
+  </tr>
+<% @stout_porter.each do |p| %>
+  </tr>
+    <td><%= p[:product_long_name].titlecase %></td>
+    <td><%= p[:product_alcohol_percent] %></td>
+    <td>$<%= p[:current_display_price] %></td>
+  </tr>
+<% end %>
+</table>
